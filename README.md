@@ -29,9 +29,15 @@ port: "54322" // puerto en la que estara
 
 ### Configuracion del puerto
 
-Configure el puerto en el cual se levantara el servicio
+Configure el puerto en el cual se levantara el servicio instala los paquetes que falta mediante consola con el comando de
 
 ```plaintext
+//EN consola ejecutar el npm creara los paquetes que faltan para ejecutar el programa
+  npm install 
+```
+
+```plaintext
+//configuracion puerto
 const app = express();
 const port = 3000; //cambiar
 ```
