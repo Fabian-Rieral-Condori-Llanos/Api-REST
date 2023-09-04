@@ -8,11 +8,11 @@ const port = 3000;
 // Conexion a base de datos
 
 const datos = new Pool({
-    user: "postgres",
-    host: "localhost",
-    database: "apirest",
-    password: "postgres",
-    port: "54322"
+    user: "postgres", // usuario para base de datos
+    host: "localhost", // host para conexion
+    database: "apirest", // conexion
+    password: "postgres", // contraseña
+    port: "54322" // puerto en la que estara
 })
 class Model {
     async getUsuario(){
